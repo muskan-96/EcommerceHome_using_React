@@ -1,0 +1,88 @@
+.homepage {
+    width: auto;
+    height: 350px;
+    background-image: url("../Images/bg1.jpg");
+    background-size: cover;
+    font-size: 70px;
+    color: black;
+    /* line-height: 350px; */
+
+}
+
+
+.homepageheading {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-weight: bolder;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* display: block; */
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+
+
+    padding: 100px 20px;
+
+
+
+
+}
+
+span {
+    margin-right: 60px;
+}
+
+.text {
+    font-size: 30px;
+    color: rgba(105, 90, 57, 0.925);
+}
+
+.cards-wrapper {
+    margin-top: 29px;
+    display: flex;
+    margin-bottom: 29px;
+}
+
+
+.card {
+    margin: 0 .9em;
+    width: calc(100%4);
+}
+
+img {
+    height: 300px;
+
+}
+
+h2 {
+    /* background-color: rgb(230, 200, 31); */
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+  .card-text{
+    text-align: center;
+  }
+  
+  .cart-button {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  

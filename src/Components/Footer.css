@@ -1,0 +1,35 @@
+.foot1 {
+    width: auto;
+    background-color: rgba(22, 20, 20, 0.925);
+}
+
+.foot-container {
+    color: rgb(209, 193, 193);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.foot-container ul {
+    list-style: none;
+    margin: 10px;
+}
+
+.foot-container li {
+    cursor: pointer;
+}
+
+.foot1 a {
+
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .foot-container {
+        flex-direction: column;
+    }
+}
